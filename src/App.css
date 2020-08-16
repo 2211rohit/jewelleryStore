@@ -1,0 +1,54 @@
+body {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#root,
+.navbar {
+  min-width: 340px !important;
+}
+.navbar .card-body {
+  padding: 0.5rem;
+  text-align: center;
+}
+.card-link {
+  cursor: pointer;
+}
+.navbar .card-link:hover,
+.navbar .sort:hover {
+  color: #3ac2c2 !important;
+}
+.sort {
+  font-size: "20px";
+  color: "#000";
+  cursor: pointer;
+  color: #3ac2c2 !important;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 576px !important;
+  }
+  .modal-lg,
+  .modal-xl {
+    max-width: 30% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .navbar i {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar i {
+    font-size: 10px !important;
+  }
+}
